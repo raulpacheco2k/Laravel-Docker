@@ -1,2 +1,2 @@
-# Laravel development environment
-Caso coloque os arquivos na sua pasta do laravel 8 e rode `docker-compose up -d` é para subir um ambiente de desenvolvimento completo, com PHP, MySql, Git, Composer e mais algumas coisas que eu não me lembro. Na minha maquina está funcionando.
+# LAMP development environment for Laravel 
+Put the files in your project directory, running in your terminal `docker-compose up -d` should bring up a basic development environment. Apache, PHP and Composer run in a container named App and MySql in a container named db.
