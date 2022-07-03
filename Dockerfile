@@ -1,4 +1,4 @@
-FROM php:8-apache
+FROM php:8.1-apache
 
 ENV APPLICATION_NAME=Laravel-Docker
 RUN echo "ServerName ${APPLICATION_NAME}" >> /etc/apache2/apache2.conf
